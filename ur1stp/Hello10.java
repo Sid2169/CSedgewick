@@ -5,7 +5,7 @@ public class Hello10
         int count = 0;
         
         do{
-             System.out.print("Hello ");
+             System.out.print("Hello Friend ");
              count++;
         } while (count < 10);
            
