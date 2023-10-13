@@ -7,7 +7,7 @@ public class Ruler
         String ruler3 = ruler2 + "3" + ruler2;
         String ruler4 = ruler3 + "4" + ruler3;
 
-        
+        System.out.println(ruler1);
         System.out.println(ruler2);
         System.out.println(ruler3);
         System.out.println(ruler4);
