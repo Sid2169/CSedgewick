@@ -4,7 +4,7 @@ public class dateRange
     {
         int m = Integer.parseInt(args[0]);
         int d = Integer.parseInt(args[1]);
-
+        //boolean for cheking true/false for a given date lies between 3/20 and 6/20;
         boolean inRange = (m == 3 && d >= 20 && d <= 31) || 
         (m >= 4 && m <= 5 && d >= 1 && d <= 31) || 
         (m == 6 && d >= 1 && d <= 20);
