@@ -6,6 +6,8 @@ public class Compound
        double r = Double.parseDouble(args[1]);
        double t = Double.parseDouble(args[2]);
 
-       System.out.println(p*(Math.pow((1+r/100), t)));
+       double e = Math.exp(1);
+
+       System.out.println(p*(Math.pow(e, r*t)));
     }
 }
