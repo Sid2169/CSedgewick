@@ -7,8 +7,8 @@ public class Polar
         
         double radialDistance = Math.sqrt(Math.pow(x, 2) + Math.pow(y, 2));
 
-        double polarAngle = Math.atan2(y, x);
+        double polarAngle = Math.atan2(y, x)*(180/Math.PI);
 
-        System.out.println("Radial Distance:" + radialDistance + " , Polar Angle:" + polarAngle);
+        System.out.println("Radial Distance:" + radialDistance + " , Polar Angle:" + polarAngle + " Degrees");
     }
 }
