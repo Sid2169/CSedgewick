@@ -12,10 +12,9 @@ public class Exponent
         while (count < power)
         {
             result = previousPower*base;
+            System.out.println(base + " raised to " +(count+1) + " = " + (result));
             previousPower = result;
             count = count + 1;
         }
-
-        System.out.println(result);
     }
 }
