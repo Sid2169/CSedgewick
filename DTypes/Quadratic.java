@@ -7,7 +7,15 @@ public class Quadratic
     double c = Double.parseDouble(args[2]);
     double discriminant = (b*b) - (4.0*a*c);
     double d = Math.sqrt(discriminant);
-    System.out.println((-b + d)/ (2.0*a));
-    System.out.println((-b - d)/ (2.0*a));
+    
+    if (discriminant < 0.0)
+    {
+        System.out.println("No real roots");
+    }
+    else
+    {
+        System.out.println((-b + d)/ (2.0*a));
+        System.out.println((-b - d)/ (2.0*a));
+    }
    }
 }
