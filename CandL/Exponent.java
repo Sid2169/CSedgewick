@@ -9,10 +9,10 @@ public class Exponent
         int count = 0;
         double result = previousPower;
         
-        while (count < power)
+        while (count <= power)
         {
+            System.out.println(base + " raised to " +(count) + " = " + (result));
             result = previousPower*base;
-            System.out.println(base + " raised to " +(count+1) + " = " + (result));
             previousPower = result;
             count = count + 1;
         }
