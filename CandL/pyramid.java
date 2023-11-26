@@ -4,9 +4,9 @@ public class pyramid
     {
         int hight = Integer.parseInt(args[0]); // Hight of pyramid provided by the user.
 
-    for (int row=1; row<=hight; row++)
+    for (int row=1; row<=hight; row++)//for printing rows.
     {
-        for (int column=1; column<=2*hight+1; column++)
+        for (int column=1; column<=2*hight+1; column++)//For printing columns of a row cell by cell.
        {
         if(column<=hight-row ||column==hight+1 || column>hight+row+1)
         {
