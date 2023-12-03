@@ -4,7 +4,7 @@ public class Ramanujan
     {
         int m = Integer.parseInt(args[0]);
        
-        System.out.println("Numbers of integers smaller than "+m+" that can be represented as sum of two cubes at least in two different ways is "+noOfCubePairs(m));
+        System.out.println("Numbers of integers smaller than or equal to "+m+" that can be represented as sum of two cubes at least in two different ways is "+noOfCubePairs(m));
     }
 
    

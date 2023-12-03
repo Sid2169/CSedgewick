@@ -8,7 +8,7 @@ public class PowersOfTwo
         for (int i = 0; i<=n; i++)
         {
             //Print powers of 2.
-            System.out.println(i + "" + power);
+            System.out.println(i + " " + power);
             power = power*2;
         }
     }
