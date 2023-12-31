@@ -17,7 +17,7 @@ public class RandomWalk
                 if (a[x-1][y] && a[x+1][y] && a[x][y-1] && a[x][y+1])
                 {deadEnds++; break;}
                 double r = Math.random();
-                if(r<0.25) {if(!a[x-1][y]) x--;}
+                if(r<0.25) {if(!a[x+1][y]) x++;}
                 else if(r<0.50) { if (!a[x-1][y]) x--;}
                 else if (r < 0.75) { if (!a[x][y+1]) y++; }
                 else if (r < 1.00) { if (!a[x][y-1]) y--; }
