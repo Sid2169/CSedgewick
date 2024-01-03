@@ -40,3 +40,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 ## Additional Notes
 
 - **matrix helpers** — Add a screenshot or example when it clarifies the workflow.
+- **code organization** — Check that sample outputs match the expected values in the source comments.
