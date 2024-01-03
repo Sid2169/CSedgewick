@@ -1,1 +1,42 @@
 # CSedgewick
+
+Java implementations and exercises inspired by Robert Sedgewick's algorithms and data structures material.
+
+## What is here
+
+- `Array/` — array processing, random walks, and sieve examples.
+- `CandL/` — control-flow and loop exercises.
+- `DTypes/` — primitive data types, dates, dice, and numeric experiments.
+- `Functions/` — recursive and mathematical functions.
+- `Iter/` — iterative graphics examples.
+- `LibClass/` — reusable I/O, matrix, and plotting helpers.
+- `Music/` — audio examples built on the standard audio library.
+- `Stdio/` — console and standard-input programs.
+- `Surfer/` — random-surfer and transition-matrix examples.
+- `ur1stp/` — first Java programs and command-line arguments.
+
+The top-level files include `Euclid.java`, `MaxProfit.java`, `MaxProfitA.java`, and `QuRegression.java`.
+
+## Requirements
+
+- A Java JDK (8 or newer).
+- A terminal for compiling and running individual examples.
+
+## Running an example
+
+Compile and run programs from their own directories:
+
+```sh
+javac Example.java
+java Example
+```
+
+Some examples read from files or standard input; check the source for the expected input format.
+
+## Purpose
+
+The repository is a personal collection for practising algorithm analysis and Java fundamentals. Individual files are small, self-contained exercises rather than a single application.
+
+## Additional Notes
+
+- **matrix helpers** — Add a screenshot or example when it clarifies the workflow.
