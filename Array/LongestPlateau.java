@@ -1,39 +1,52 @@
-public class LongestPlateau
+public class LongestPlateau 
 {
-    public static void main(String[] args)
+    public static void main(String[] args) 
     {
         int n = Integer.parseInt(args[0]);
         int[] a = new int[n];
-        for(int i = 0; i < n; i++)
-        {a[i] = (int)(Math.random()*n); System.out.print(a[i] + " ");}
-    System.out.println();
+
+        // Fill the array with random values
+        for (int i = 0; i < n; i++) {
+            a[i] = (int) (Math.random() * n);
+            System.out.print(a[i] + " ");
+        }
+        System.out.println();
 
         int currentPlateauBegins = 0;
-        int currentPlateauEnds = 0;
-        int currentLength = 0;
-        int maxLength = 0;
+        int currentLength = 1;
+        int maxLength = 1;
         int maxPlateauBegins = 0;
-        int maxPlateuaEnds = 0;
 
-        while(n - currentPlateauEnds + 1 > maxLength)
+        // Loop through the array to find the longest plateau
+        for (int i = 1; i < n; i++) 
         {
-            for(int i = currentPlateauEnds; a[i] < a[i+1]; i++)
-            {currentPlateauBegins = i+1;}
-            for(int i = currentPlateauBegins; a[i]>=a[i+1]; i++)
-            {currentPlateauEnds = i;}
-
-            if(currentPlateauEnds + 1 - currentPlateauBegins > currentLength)
+            if (a[i] == a[i - 1]) 
+            {currentLength++;} 
+            else 
             {
-                maxLength = currentPlateauEnds + 1 - currentPlateauBegins;
-                currentLength = maxLength;
-                maxPlateauBegins = currentPlateauBegins;
-                maxPlateuaEnds = currentPlateauEnds;
+                if (currentLength > maxLength) 
+                {
+                    maxLength = currentLength;
+                    maxPlateauBegins = currentPlateauBegins;
+                }
+                currentPlateauBegins = i;
+                currentLength = 1;
             }
-            else if(currentPlateauEnds + 1 - currentPlateauBegins == currentLength)
-            {currentLength = currentPlateauEnds + 1 - currentPlateauBegins;}
         }
-        for(int i = maxPlateauBegins; i <= maxPlateuaEnds; i++)
-        {System.out.print(a[i] + " ");}
-        System.out.println(maxPlateauBegins + " " + maxPlateuaEnds + " " + maxLength);
+
+        // Check the last plateau
+        if (currentLength > maxLength) 
+        {
+            maxPlateauBegins = currentPlateauBegins;
+        }
+
+        // Print the elements of the longest plateau and its indices
+        System.out.print("Longest Plateau: ");
+        for (int j = maxPlateauBegins; j < maxPlateauBegins + maxLength; j++) 
+        {
+            System.out.print(a[j] + " ");
+        }
+        System.out.println("\nStart Index: " + maxPlateauBegins);
+        System.out.println("End Index: " + (maxPlateauBegins + maxLength - 1));
     }
 }
