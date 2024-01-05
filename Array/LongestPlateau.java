@@ -6,7 +6,8 @@ public class LongestPlateau
         int[] a = new int[n];
 
         // Fill the array with random values
-        for (int i = 0; i < n; i++) {
+        for (int i = 0; i < n; i++) 
+        {
             a[i] = (int) (Math.random() * n);
             System.out.print(a[i] + " ");
         }
@@ -20,7 +21,7 @@ public class LongestPlateau
         // Loop through the array to find the longest plateau
         for (int i = 1; i < n; i++) 
         {
-            if (a[i] == a[i - 1]) 
+            if (a[i] == a[i - 1])
             {currentLength++;} 
             else 
             {
