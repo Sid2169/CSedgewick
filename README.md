@@ -43,3 +43,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **code organization** — Check that sample outputs match the expected values in the source comments.
 - **audio examples** — Confirm each example compiles with the Java version available today.
 - **random walks** — Prefer small, focused changes over broad rewrites.
+- **code organization** — Check the relevant browser or runtime support.
