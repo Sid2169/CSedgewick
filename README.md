@@ -42,3 +42,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **matrix helpers** — Add a screenshot or example when it clarifies the workflow.
 - **code organization** — Check that sample outputs match the expected values in the source comments.
 - **audio examples** — Confirm each example compiles with the Java version available today.
+- **random walks** — Prefer small, focused changes over broad rewrites.
