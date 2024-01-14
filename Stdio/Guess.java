@@ -1,3 +1,6 @@
+
+import StdIn
+import StdOut.
 public class Guess
 {
     public static void main(String[] args)
