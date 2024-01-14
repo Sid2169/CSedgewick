@@ -1,6 +1,3 @@
-
-import StdIn
-import StdOut.
 public class Guess
 {
     public static void main(String[] args)
@@ -8,18 +5,19 @@ public class Guess
         int secret = (int)(Math.random()*1000000);
         StdOut.print("I am thinking of a number \n between 1 and 1,000,000");
         int guess = 0;
+        char answer;
 
         while (guess!=secret)
         {
-            StdOut.print("what's your guess? ");
+            StdOut.print("\nwhat's your guess? ");
             guess = StdIn.readInt();
-            if(guess != secret)
+            if(guess == secret)
             {StdOut.print("You win ! ");}
 
             else if(guess != secret)
             {
-                StdOut.print(" Do you want to know the answer ? \n Enter Y for yes and N for no ");
-                char answer = StdIn.readChar();
+                StdOut.print("Oops! Incorrect :)\nDo you want to know the answer ? \nEnter Y for yes and N for no ");
+                answer = StdIn.readChar();
                 
                 if(answer == 'Y' || answer == 'y')
                 {StdOut.print("\nThe correct answer is " + secret + "\n");}
