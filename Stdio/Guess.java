@@ -16,11 +16,12 @@ public class Guess
             else if(guess != secret)
             {
                 StdOut.print(" Do you want to know the answer ? \n Enter Y for yes and N for no ");
-                char answer = readChar();
-                if(answer == Y || answer == y)
-                {StdOut.print("\nThe correct answer is %i\n " , secret);}
+                char answer = StdIn.readChar();
+                
+                if(answer == 'Y' || answer == 'y')
+                {StdOut.print("\nThe correct answer is " + secret + "\n");}
 
-                else if(answer == N || answer == n)
+                else if(answer == 'N' || answer == 'n')
                 {
                     if (guess  < secret)
                     {StdOut.print("\nYour guess is too low.\n");}
