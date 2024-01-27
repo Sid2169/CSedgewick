@@ -1,7 +1,8 @@
-public class BouncingBall {
-    public static void main(String[] args) {
-
-        // set the scale of the coordinate system
+    public class BouncingBall 
+    {
+        public static void main(String[] args) 
+        {
+              // set the scale of the coordinate system
         StdDraw.setXscale(-1.0, 1.0);
         StdDraw.setYscale(-1.0, 1.0);
         StdDraw.enableDoubleBuffering();
@@ -12,7 +13,8 @@ public class BouncingBall {
         double radius = 0.05;              // radius
 
         // main animation loop
-        while (true)  {
+        while (true)  
+        {
 
             // bounce off wall according to law of elastic collision
             if (Math.abs(rx + vx) > 1.0 - radius) vx = -vx;
@@ -35,6 +37,14 @@ public class BouncingBall {
             // pause for 20 ms
             StdDraw.pause(20);
 
+
         }
+
+        }
+        
+          
+
+        
     }
-}
+
+
