@@ -5,7 +5,7 @@ public class Guess
         int secret = (int)(Math.random()*1000000);
         StdOut.print("I am thinking of a number \n between 1 and 1,000,000");
         int guess = 0;
-        char answer;
+        int answer;
 
         while (guess!=secret)
         {
@@ -16,13 +16,13 @@ public class Guess
 
             else if(guess != secret)
             {
-                StdOut.print("Oops! Incorrect :)\nDo you want to know the answer ? \nEnter Y for yes and N for no ");
-                answer = StdIn.readChar();
+                StdOut.print("Oops! Incorrect :)\nDo you want to know the answer ? \nEnter 1 for yes and 0 for no ");
+                answer = StdIn.readInt();
                 
-                if(answer == 'Y' || answer == 'y')
-                {StdOut.print("\nThe correct answer is " + secret + "\n");}
+                if(answer == 1)
+                {StdOut.print("\nThe correct answer is " + secret + "\n"); break;}
 
-                else if(answer == 'N' || answer == 'n')
+                else if(answer == 0)
                 {
                     if (guess  < secret)
                     {StdOut.print("\nYour guess is too low.\n");}
