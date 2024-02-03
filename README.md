@@ -44,3 +44,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **audio examples** — Confirm each example compiles with the Java version available today.
 - **random walks** — Prefer small, focused changes over broad rewrites.
 - **code organization** — Check the relevant browser or runtime support.
+- **random walks** — Document any manual steps that cannot be automated.
