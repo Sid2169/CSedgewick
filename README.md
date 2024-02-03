@@ -45,3 +45,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Prefer small, focused changes over broad rewrites.
 - **code organization** — Check the relevant browser or runtime support.
 - **random walks** — Document any manual steps that cannot be automated.
+- **array exercises** — Include a short reproduction step when reporting issues.
