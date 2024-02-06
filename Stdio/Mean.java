@@ -24,5 +24,14 @@ public class Mean
 
         StdOut.println("Mean = " + mean);
         StdOut.println("Standard Deviation = " + standardDeviation);
+        StdOut.print("Number of values that are 1.5 standard deviation away from mean are ");
+
+        for(int i = 0; i < n; i++)
+        {
+            if(Math.abs(mean-a[i]) > (1.5*standardDeviation))
+            StdOut.print(a[i] + " ");
+
+        }
+        StdOut.println();
     }
 }
