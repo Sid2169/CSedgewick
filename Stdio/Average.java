@@ -12,5 +12,6 @@ public class Average
         }
         double average = sum / n;
         StdOut.println("Average is " + average);
+
     }
-}
+}        
