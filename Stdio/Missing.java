@@ -21,14 +21,11 @@ public class Missing
 
             }  
         }
-        
-        
         for(int i = 1; i < n; i++)
         {
             if(missing[i])
             {StdOut.print(i + " ");}
         }
-   
     }
     
 }
