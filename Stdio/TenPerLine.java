@@ -10,8 +10,8 @@ public class TenPerLine
                 StdOut.printf("%3d " ,value);
                 if(StdIn.isEmpty()) break;
             }
+        }    
             StdOut.println();
-        }
 
     }
 }
