@@ -1,3 +1,6 @@
+/*This code randomizes only first m elements of a sorted array of n elements hence the name 
+ * Sampling without replacement.
+ */
 public class Sample
 {
     public static void main(String[] args)

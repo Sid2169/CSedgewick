@@ -1,3 +1,8 @@
+/*
+ * This program takes n as input command line argument and simulate object selection by generating random 
+ * numbers between 0 and n-1 until getting every possible value.
+ * 
+ */
 public class Collector
 {
     public static void main(String[] args)

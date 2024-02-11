@@ -1,3 +1,10 @@
+/*
+
+This program takes command-line arguments n and trials and computes trials self-avoiding walks 
+in an n-by-n lattice. For each walk, it creates a boolean array, starts the walk in the center,
+ and continues until either a dead end or a boundary is reached. The result of the computation 
+ is the percentage of dead ends. Increasing the number of experiments increases the precision. 
+ */
 public class RandomWalk
 {
     public static void main(String[] args)
