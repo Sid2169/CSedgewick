@@ -1,0 +1,2 @@
+/*
+1.5.29 Terrain analysis. Suppose that a terrain is represented by a two-dimensional grid of elevation values (in meters). A peak is a grid point whose four neighboring cells (left, right, up, and down) have strictly lower elevation values. Write a program Peaks that reads a terrain from standard input and then computes and prints the number of peaks in the terrain. */

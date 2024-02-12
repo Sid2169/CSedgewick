@@ -1,0 +1,2 @@
+/*
+1.5.30 Histogram. Suppose that the standard input stream is a sequence of double values. Write a program that takes an integer n and two real numbers lo and hi as command-line arguments and uses StdDraw to plot a histogram of the count of the numbers in the standard input stream that fall in each of the n intervals defined by dividing (lo, hi) into n equal-sized intervals. */

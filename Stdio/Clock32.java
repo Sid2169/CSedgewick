@@ -1,0 +1,1 @@
+/*1.5.32 Clock. Write a program that displays an animation of the second, minute, and  hour hands of an analog clock. Use the method StdDraw.pause(1000) to update the display roughly once per second. */
