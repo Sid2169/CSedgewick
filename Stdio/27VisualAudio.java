@@ -1,1 +1,0 @@
-/*1.5.27 Visualizing audio. Modify PlayThatTune to send the values played to standard drawing, so that you can watch the sound waves as they are played. You will have to experiment with plotting multiple curves in the drawing canvas to synchronize the sound and the picture. */

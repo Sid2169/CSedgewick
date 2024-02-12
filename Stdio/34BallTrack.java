@@ -1,1 +1,0 @@
-/*1.5.34 Bouncing ball with tracks. Modify BouncingBall to produce images like the ones shown in the text, which show the track of the ball on a gray background. */

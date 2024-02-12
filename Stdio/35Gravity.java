@@ -1,2 +1,0 @@
-/*
-1.5.35 Bouncing ball with gravity. Modify BouncingBall to incorporate gravity in the vertical direction. Add calls to StdAudio.play() to add a sound effect when the ball hits a wall and a different sound effect when it hits the floor. */

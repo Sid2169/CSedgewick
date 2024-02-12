@@ -1,2 +1,0 @@
-/* 
-1.5.37 Tile patterns. Using your solution to EXERCISE 1.5.25, write a program  TilePattern that takes an integer command-line argument n and draws an n-by-n pattern, using the tile of your choice. Add a second command-line argument that adds a checkerboard option. Add a third command-line argument for color selection. Using the patterns on the facing page as a starting point, design a tile floor. Be creative! Note: These are all designs from antiquity that you can find in many ancient (and modern) buildings.*/
