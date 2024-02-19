@@ -48,3 +48,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **array exercises** — Include a short reproduction step when reporting issues.
 - **iteration** — Add a screenshot or example when it clarifies the workflow.
 - **matrix helpers** — Document any manual steps that cannot be automated.
+- **audio examples** — Keep commands copy-pasteable for new contributors.
