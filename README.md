@@ -46,3 +46,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **code organization** — Check the relevant browser or runtime support.
 - **random walks** — Document any manual steps that cannot be automated.
 - **array exercises** — Include a short reproduction step when reporting issues.
+- **iteration** — Add a screenshot or example when it clarifies the workflow.
