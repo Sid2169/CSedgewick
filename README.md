@@ -47,3 +47,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Document any manual steps that cannot be automated.
 - **array exercises** — Include a short reproduction step when reporting issues.
 - **iteration** — Add a screenshot or example when it clarifies the workflow.
+- **matrix helpers** — Document any manual steps that cannot be automated.
