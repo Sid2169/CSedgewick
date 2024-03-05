@@ -9,7 +9,7 @@
 
         // initial values
         double rx = 0.480, ry = 0.860;     // position
-        double vx = 0.015, vy = 0.023;     // velocity
+        double vx = 0.002, vy = 0.023;     // velocity
         double radius = 0.05;              // radius
 
         // main animation loop
