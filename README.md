@@ -49,3 +49,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **iteration** — Add a screenshot or example when it clarifies the workflow.
 - **matrix helpers** — Document any manual steps that cannot be automated.
 - **audio examples** — Keep commands copy-pasteable for new contributors.
+- **matrix helpers** — Check the relevant browser or runtime support.
