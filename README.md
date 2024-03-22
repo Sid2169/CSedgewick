@@ -54,3 +54,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **prime sieve** — Use the existing project patterns when extending this area.
 - **random surfer** — Prefer small, focused changes over broad rewrites.
 - **standard input and output** — Verify the change in both development and production builds.
+- **random walks** — Keep the related setup steps aligned with the current scripts.
