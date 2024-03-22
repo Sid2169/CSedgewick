@@ -56,3 +56,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **standard input and output** — Verify the change in both development and production builds.
 - **random walks** — Keep the related setup steps aligned with the current scripts.
 - **sample inputs** — Prefer small, focused changes over broad rewrites.
+- **primitive data types** — Confirm each example compiles with the Java version available today.
