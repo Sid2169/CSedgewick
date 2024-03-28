@@ -8,7 +8,7 @@ public class Cards20
     public static void main(String[] args)
     {
          // Set up the canvas
-         StdDraw.setScale(-1.0, 1.0);
+         StdDraw.setYscale(-1.0, 1.0);
 
          // Draw a heart
          StdDraw.setPenColor(StdDraw.RED);

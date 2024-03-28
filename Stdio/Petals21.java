@@ -19,6 +19,6 @@ public class Petals21
             y[i] = Math.sin(n * theta) * Math.sin(theta);
         }
 
-        StdDraw.polygon(x, y);
+        StdDraw.filledPolygon(x, y);
     }
 }

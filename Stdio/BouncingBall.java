@@ -3,7 +3,7 @@
         public static void main(String[] args) 
         {
               // set the scale of the coordinate system
-        StdDraw.setXscale(-1.0, 1.0);
+        StdDraw.setYscale(-1.0, 1.0);
         StdDraw.setYscale(-1.0, 1.0);
         StdDraw.enableDoubleBuffering();
 
