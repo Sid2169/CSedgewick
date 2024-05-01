@@ -1,23 +1,21 @@
+/*
+1.4.4 Write a code fragment that reverses the order of the values in a one-dimensional string array. Do not create another array to hold the result. Hint: Use the code in the text for exchanging the values of two elements. */
 public class Reverse 
 {
     public static void main(String[] args)
     {
-        int n = Integer.parseInt(args[0]);
-        int[] a = new int[n];
-        for(int i = 0; i < n; i++)
-        {a[i] = i+1;}
-       for(int i = 0; i < n; i++)
-        {System.out.print(a[i] + " ");}
+        for (int i = 0, n = args.length; i < (n / 2); i++)
+        {
+            String temp = args[i]; 
+            args[i] = args[n - i - 1];
+            args[n - i - 1] = temp;
+        }
+
+        for (int i = 0, n = args.length; i < n; i++)
+        {
+            System.out.print(args[i] + " ");
+        }
         System.out.println();
 
-        for(int i = 0; i < n/2; i++)
-        {
-            int t = a[i];
-            a[i] = a[n-1-i];
-            a[n-1-i] = t;
-        }
-        for(int i = 0; i < n; i++)
-        {System.out.print(a[i] + " ");}
-        System.out.println();
     }
 }
