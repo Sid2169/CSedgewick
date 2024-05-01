@@ -1,3 +1,5 @@
+/*
+1.4.3 Given two vectors of length n that are represented with one-dimensional arrays, write a code fragment that computes the Euclidean distance between them (the square root of the sums of the squares of the differences between corresponding elements). */
 public class Distance
 {
     public static void main(String args[])
