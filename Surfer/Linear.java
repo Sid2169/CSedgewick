@@ -22,7 +22,7 @@ public class Linear
         double m = (n*sumXY - sumX*sumY)/(n*sumXSquare - sumX*sumX);
         double b = (sumY - m*sumX)/n;
 
-        System.out.println("Approximate linear model for the given data is y = " + m + "x " + b); 
+        System.out.println("Approximate linear model for the given data using the method of least square is y = " + m + "x " + b); 
 
     }
 }
