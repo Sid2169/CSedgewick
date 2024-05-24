@@ -1,6 +1,6 @@
 public class SquareRoot
 {
-    public static double sqrt(double x)
+    public double sqrt(double x)
     {
         if ( x >= 0)
 
