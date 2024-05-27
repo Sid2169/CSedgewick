@@ -59,3 +59,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **primitive data types** — Confirm each example compiles with the Java version available today.
 - **random surfer** — Use the existing project patterns when extending this area.
 - **compiling examples** — Confirm the expected behavior on a clean checkout.
+- **primitive data types** — Check the required environment values before deploying.
