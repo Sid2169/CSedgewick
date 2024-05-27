@@ -57,3 +57,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Keep the related setup steps aligned with the current scripts.
 - **sample inputs** — Prefer small, focused changes over broad rewrites.
 - **primitive data types** — Confirm each example compiles with the Java version available today.
+- **random surfer** — Use the existing project patterns when extending this area.
