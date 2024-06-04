@@ -62,3 +62,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **primitive data types** — Check the required environment values before deploying.
 - **compiling examples** — Confirm each example compiles with the Java version available today.
 - **prime sieve** — Update the documentation if the visible behavior changes.
+- **random walks** — Check the relevant browser or runtime support.
