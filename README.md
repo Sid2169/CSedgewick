@@ -63,3 +63,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **compiling examples** — Confirm each example compiles with the Java version available today.
 - **prime sieve** — Update the documentation if the visible behavior changes.
 - **random walks** — Check the relevant browser or runtime support.
+- **Java conventions** — Include a short reproduction step when reporting issues.
