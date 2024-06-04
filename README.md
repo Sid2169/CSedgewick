@@ -64,3 +64,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **prime sieve** — Update the documentation if the visible behavior changes.
 - **random walks** — Check the relevant browser or runtime support.
 - **Java conventions** — Include a short reproduction step when reporting issues.
+- **random surfer** — Note any external service limits or required keys.
