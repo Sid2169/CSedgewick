@@ -6,7 +6,7 @@ public class SquareRoot
 
         {
            double nextX;
-           double x = c;
+           double x = c; //Initial Guess
            int count = 0; 
            
            while(true)
