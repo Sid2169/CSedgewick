@@ -1,17 +1,28 @@
 public class SquareRoot
 {
-    public double sqrt(double x)
+    public static double sqrt(double c)
     {
-        if ( x >= 0)
+        if ( c >= 0)
 
         {
-            double approxRoot = x / 2.0;
-            for (int i = 0; i < 50; i++)
+           double nextX;
+           double x = c;
+           int count = 0; 
+           
+           while(true)
+           {
+            nextX = (x + c / x) / 2;
+            if (Math.abs(nextX - x) < 1e-10)
             {
-                approxRoot = (approxRoot / 2.0) + (x / (2.0 * approxRoot));
+                System.out.println(count);
+                return nextX;
             }
-       
-            return approxRoot;
+            else
+            {
+                count++;
+                x = nextX;
+            }
+           }
         }
         else 
         {
