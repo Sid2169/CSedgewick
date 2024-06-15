@@ -1,7 +1,8 @@
 public class Stars 
 {
 
-    public static void main(String[] args) {
+    public static void main(String[] args) 
+    {
         // Parse command-line arguments
         double d1 = Math.toRadians(Double.parseDouble(args[0])); // Declination of star 1
         double a1 = Math.toRadians(Double.parseDouble(args[1])); // Right ascension of star 1

@@ -24,4 +24,9 @@ public class Scale
             a[i] = a[i] / maxDifference;
         }
     }
+
+    public static void main(String[] args)
+    {
+        
+    }
 }
