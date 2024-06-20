@@ -10,7 +10,7 @@ public class PandL
         double stopLoss = 1.0 - Double.parseDouble(args[1]) / 100.0;
         double cap = Double.parseDouble(args[2]);
         int noOfTrades = Integer.parseInt(args[3]);
-        double winRate = Double.parseDouble(args[4]);
+        double winRate = Double.parseDouble(args[4]) / 100;
         double sum = cap;
 
         for (int i = 0; i < noOfTrades; i++)
