@@ -11,34 +11,54 @@ public class PandL
         double cap = Double.parseDouble(args[2]);
         int noOfTrades = Integer.parseInt(args[3]);
         double winRate = Double.parseDouble(args[4]) / 100;
-        double sum = cap;
 
+        
+        double maxReturn = Double.NEGATIVE_INFINITY;
+        double minReturn = Double.POSITIVE_INFINITY;
+        double averageReturn = 0.0;
+        for (int i = 0; i < 1000; i++)
+        {
+            double t = finalSum(target, stopLoss, cap, noOfTrades, winRate);
+            averageReturn += t;
+            if (t < minReturn)
+            {
+                minReturn = t;
+            }
+            if (t > maxReturn)
+            {
+                maxReturn = t;
+            }
+        }
+        
+        System.out.println("Minimum Return :" + minReturn);
+        System.out.println("Maximum Return :" + maxReturn);
+        System.out.println("Average Return :" + averageReturn / 1000);
+        System.out.println("Worst Case :" + finalSum(target, stopLoss, cap, noOfTrades, 0.0));
+        System.out.println("Best  Case :" + finalSum(target, stopLoss, cap, noOfTrades, 100.0));
+
+        
+        
+    }
+
+    public static double finalSum(double target, double stopLoss, double cap, int noOfTrades, double winRate)
+    {
+        double sum = cap;
         for (int i = 0; i < noOfTrades; i++)
         {
             if (Math.random() <= winRate)
             {
-                double t = sum;
                 sum *= target;
-                double p = sum - t;
-                System.out.print("\u001B[32mProfit :"); // Green text
-                System.out.printf("%8.2f", p);
-                System.out.print("\u001B[0m"); // Reset to default color
             }
             else 
             {
-                double t = sum;
                 sum *= stopLoss;
-                double l = t - sum;
-                System.out.print("\u001B[31mLoss   :"); // Red text
-                System.out.printf("%8.2f", l);
-                System.out.print("\u001B[0m"); // Reset to default color
             }
-            System.out.printf("    Current Capital: %10.2f\n", sum); // Print current capital
 
             if (sum <= 0)
             {
                 break;
             }
-        }
+        }    
+        return sum;
     }
 }
