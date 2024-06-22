@@ -16,7 +16,7 @@ public class PandL
         double maxReturn = Double.NEGATIVE_INFINITY;
         double minReturn = Double.POSITIVE_INFINITY;
         double averageReturn = 0.0;
-        for (int i = 0; i < 1000; i++)
+        for (int i = 0; i < 10000; i++)
         {
             double t = finalSum(target, stopLoss, cap, noOfTrades, winRate);
             averageReturn += t;
@@ -30,11 +30,11 @@ public class PandL
             }
         }
         
-        System.out.println("Minimum Return :" + minReturn);
-        System.out.println("Maximum Return :" + maxReturn);
-        System.out.println("Average Return :" + averageReturn / 1000);
-        System.out.println("Worst Case :" + finalSum(target, stopLoss, cap, noOfTrades, 0.0));
-        System.out.println("Best  Case :" + finalSum(target, stopLoss, cap, noOfTrades, 100.0));
+        System.out.printf("Minimum Return :%.2f\n",minReturn);
+        System.out.printf("Maximum Return :%.2f\n",maxReturn);
+        System.out.printf("Average Return :%.2f\n",averageReturn / 10000);
+        System.out.printf("Worst Case :%.2f\n",finalSum(target, stopLoss, cap, noOfTrades, 0.0));
+        System.out.printf("Best  Case :%.2f\n",finalSum(target, stopLoss, cap, noOfTrades, 100.0));
 
         
         
