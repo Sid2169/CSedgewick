@@ -1,3 +1,7 @@
+package CSedgewick.Libraries;
+
+import CSedgewick.Functions.Gaussian;
+
 public class SAT
 {
     public static void main(String[] args)

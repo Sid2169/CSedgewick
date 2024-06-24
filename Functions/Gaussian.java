@@ -1,3 +1,5 @@
+package CSedgewick.Functions;
+
 public class Gaussian
 {
     public static double pdf(double x)
@@ -24,6 +26,6 @@ public class Gaussian
         double z = Double.parseDouble(args[0]);
         double mu = Double.parseDouble(args[1]);
         double sigma = Double.parseDouble(args[2]);
-        StdOut.printf("%.3f\n", cdf((z - mu) / sigma));
+        System.out.printf("%.3f\n", cdf((z - mu) / sigma));
     }
 }
