@@ -18,6 +18,7 @@ public class Sort
             a[i] = a[smallestIndex];
             a[smallestIndex] = temp;
         }
+        
     }
 
     public static void selectionSort(double[] a)
@@ -38,6 +39,7 @@ public class Sort
             a[i] = a[smallestIndex];
             a[smallestIndex] = temp;
         }
+        
     }
 
     public static void bubbleSort(int[] a)
@@ -59,9 +61,10 @@ public class Sort
             }
             if (!swap) break;
         }
+    
     }
 
-    public static void bubbleSort(double[] a)
+    public static  void bubbleSort(double[] a)
     {
         int n = a.length;
 
@@ -79,6 +82,29 @@ public class Sort
                 }
             }
             if (!swap) break;
+        }
+        
+    }
+
+    public static void main(String[] args)
+    {
+        double[] OriginalArr = new double[args.length];
+        for (int i = 0, n = OriginalArr.length; i < n; i++)
+        {
+            OriginalArr[i] = Double.parseDouble(args[i]);
+        }
+        double[] arr = OriginalArr;
+        selectionSort(arr);
+        double[] selectionSorted = arr;
+
+        bubbleSort(OriginalArr);
+        double[] bubbleSorted = OriginalArr;
+
+        for (int i = 0, n = arr.length; i < n; i++)
+        {
+            System.out.printf("%9.5f ", selectionSorted[i]);
+            System.out.printf("%9.5f", bubbleSorted[i]);
+            System.out.println();
         }
     }
 }
