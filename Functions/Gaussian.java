@@ -1,4 +1,5 @@
-package CSedgewick.Functions;
+
+
 
 public class Gaussian
 {
