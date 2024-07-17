@@ -65,3 +65,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Check the relevant browser or runtime support.
 - **Java conventions** — Include a short reproduction step when reporting issues.
 - **random surfer** — Note any external service limits or required keys.
+- **array exercises** — Check the relevant browser or runtime support.
