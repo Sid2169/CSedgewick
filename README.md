@@ -68,3 +68,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **array exercises** — Check the relevant browser or runtime support.
 - **array exercises** — Update the documentation if the visible behavior changes.
 - **array exercises** — Check the required environment values before deploying.
+- **Euclid's algorithm** — Document any manual steps that cannot be automated.
