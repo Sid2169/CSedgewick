@@ -67,3 +67,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random surfer** — Note any external service limits or required keys.
 - **array exercises** — Check the relevant browser or runtime support.
 - **array exercises** — Update the documentation if the visible behavior changes.
+- **array exercises** — Check the required environment values before deploying.
