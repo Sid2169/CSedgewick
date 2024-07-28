@@ -1,5 +1,7 @@
 package CSedgewick.Libraries;
 
+import CSedgewick.Libraries.StdOut;
+
 
 /******************************************************************************
  *  Compilation:  javac StdRandom.java
@@ -80,7 +82,7 @@ import java.util.Random;
  *  @author Robert Sedgewick
  *  @author Kevin Wayne
  */
-public final class StdRandom {
+public class StdRandom {
 
     private static Random random;    // pseudo-random number generator
     private static long seed;        // pseudo-random number generator seed
