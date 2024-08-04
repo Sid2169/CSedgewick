@@ -2,19 +2,18 @@ public class ArrayEquals
 {
     public static boolean compareArray(int[] a, int[] b)
     {
-        boolean result = false;
-        if (a.length == b.length)
+        if (a.length != b.length)
         {
-            for (int i = 0; i < a.length; i++)
-            {
-                if (a[i] != b[i])
-                {
-                    return result;
-                }
-            }
-            result = true;
+            return false;
         }
-        return result;
+        for (int i = 0; i < a.length; i++)
+        {
+            if (a[i] != b[i])
+            {
+                return false;
+            }
+        }
+        return true;
     }
 
     public static void main(String[] args)
