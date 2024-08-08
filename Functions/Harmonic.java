@@ -1,3 +1,6 @@
+/*
+
+This program defines two static methods, one named harmonic() that has integer argument n and computes the nth harmonic numbers (see PROGRAM 1.3.5) and one named main(), which tests harmonic() with integer arguments specified on the command line. */
 public class Harmonic
 {
     public static void main(String[] args)
