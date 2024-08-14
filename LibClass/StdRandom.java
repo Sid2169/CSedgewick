@@ -1,6 +1,4 @@
-package CSedgewick.Libraries;
 
-import CSedgewick.Libraries.StdOut;
 
 
 /******************************************************************************
