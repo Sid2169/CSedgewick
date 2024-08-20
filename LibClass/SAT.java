@@ -1,4 +1,6 @@
+package LibClass;
 
+import Functions.Gaussian;
 
 public class SAT
 {
