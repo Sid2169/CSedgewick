@@ -1,3 +1,5 @@
+import LibClass.Gaussian;
+
 /******************************************************************************
  *  Compilation:  javac BlackScholes.java
  *  Execution:    java BlackScholes s x r sigma t
