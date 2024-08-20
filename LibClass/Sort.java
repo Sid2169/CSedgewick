@@ -1,3 +1,5 @@
+package LibClass;
+
 public class Sort
 {
     public static void selectionSort(int[] a)//Selection sort for integer array.

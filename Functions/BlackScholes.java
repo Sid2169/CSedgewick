@@ -41,7 +41,7 @@ public class BlackScholes
     {
         double a = (Math.log(s/x) + (r + sigma * sigma/2) * t) / (sigma * Math.sqrt(t));
         double b = a - sigma * Math.sqrt(t);
-        return s * Gaussian.Phi(a) - x * Math.exp(-r * t) * Gaussian.Phi(b);
+        return s * Gaussian.pdf(a) - x * Math.exp(-r * t) * Gaussian.pdf(b);
     }
 
 

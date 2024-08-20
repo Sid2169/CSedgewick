@@ -1,3 +1,5 @@
+package LibClass;
+
 public class ClassA
 {
     public static void staticMethod()

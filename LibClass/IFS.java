@@ -1,3 +1,5 @@
+package LibClass;
+
 public class IFS {
     public static void main(String[] args) {
 

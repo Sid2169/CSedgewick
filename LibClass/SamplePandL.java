@@ -1,3 +1,5 @@
+package LibClass;
+
 public class SamplePandL
 {
     public static void main(String[] args)
