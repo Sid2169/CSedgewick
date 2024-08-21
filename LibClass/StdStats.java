@@ -71,6 +71,39 @@ public class StdStats
             return arr[n / 2];
         }
     }
+
+    public static void plotPoints(double[] a)
+    {// Plot points at (i, a[i]).
+        int n = a.length;
+        StdDraw.setXscale(-1, n);
+        StdDraw.setPenRadius(1/(3.0*n));
+        for (int i = 0; i < n; i++)
+        {
+            StdDraw.point(i, a[i]);
+        }
+    }
+
+    public static void plotLines(double[] a)
+    {// Plot lines through points at (i, a[i]).
+        int n = a.length;
+        StdDraw.setXscale(-1, n);
+        StdDraw.setPenRadius();
+        for (int i = 1; i < n; i++)
+        {
+            StdDraw.line(i - 1, a[i-1], i, a[i]);
+        }
+    }
+
+    public static void plotBars(double[] a)
+    {// Plot bars from (0, a[i]) to (i, a[i]).
+        int n = a.length;
+        StdDraw.setXscale(-1, n);
+        for (int i = 0; i < n; i++)
+        {
+            StdDraw.filledRectangle(i, a[i]/2, 0.25, a[i]/2);
+        }
+
+    }
     
     
     public static void main(String[] args)
@@ -82,5 +115,8 @@ public class StdStats
         StdOut.printf("    stddev %10.3f\n", stdDev(a));
         StdOut.printf("       var %10.3f\n", variance(a));
         StdOut.printf("    median %10.3f\n", median(a));
+        plotPoints(a);
+        plotLines(a);
+        plotPoints(a);
     }
 }
