@@ -81,6 +81,7 @@ public class StdStats
         {
             StdDraw.point(i, a[i]);
         }
+        return;
     }
 
     public static void plotLines(double[] a)
@@ -92,6 +93,7 @@ public class StdStats
         {
             StdDraw.line(i - 1, a[i-1], i, a[i]);
         }
+        return;
     }
 
     public static void plotBars(double[] a)
@@ -102,6 +104,7 @@ public class StdStats
         {
             StdDraw.filledRectangle(i, a[i]/2, 0.25, a[i]/2);
         }
+        return;
 
     }
     
