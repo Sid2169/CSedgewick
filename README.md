@@ -70,3 +70,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **array exercises** — Check the required environment values before deploying.
 - **Euclid's algorithm** — Document any manual steps that cannot be automated.
 - **harmonic numbers** — Note any external service limits or required keys.
+- **audio examples** — Document any manual steps that cannot be automated.
