@@ -22,6 +22,11 @@ public class Gaussian
         return 0.5 + pdf(z) * sum;
     }
 
+    public static double pdf(double x, double mu, double sigma)
+    {
+        return pdf((x - mu) / sigma) / sigma;
+    }
+
     public static void main(String[] args)
     {
         double z = Double.parseDouble(args[0]);
