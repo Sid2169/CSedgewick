@@ -27,6 +27,11 @@ public class Gaussian
         return pdf((x - mu) / sigma) / sigma;
     }
 
+    public static double cdf(double z, double mu, double sigma)
+    {
+        return cdf((z - mu) / sigma) / sigma;
+    }
+
     public static void main(String[] args)
     {
         double z = Double.parseDouble(args[0]);
