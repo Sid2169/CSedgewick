@@ -75,3 +75,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **sample inputs** — Keep the related setup steps aligned with the current scripts.
 - **Java conventions** — Verify that links and references still resolve.
 - **iteration** — Confirm each example compiles with the Java version available today.
+- **random walks** — Verify the change in both development and production builds.
