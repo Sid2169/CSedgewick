@@ -74,3 +74,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **standard input and output** — Document any manual steps that cannot be automated.
 - **sample inputs** — Keep the related setup steps aligned with the current scripts.
 - **Java conventions** — Verify that links and references still resolve.
+- **iteration** — Confirm each example compiles with the Java version available today.
