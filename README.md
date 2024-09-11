@@ -71,3 +71,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **Euclid's algorithm** — Document any manual steps that cannot be automated.
 - **harmonic numbers** — Note any external service limits or required keys.
 - **audio examples** — Document any manual steps that cannot be automated.
+- **standard input and output** — Document any manual steps that cannot be automated.
