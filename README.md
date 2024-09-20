@@ -79,3 +79,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **audio examples** — Confirm the expected behavior on a clean checkout.
 - **recursion** — Check the relevant browser or runtime support.
 - **algorithm analysis** — Keep the related setup steps aligned with the current scripts.
+- **standard input and output** — Include a short reproduction step when reporting issues.
