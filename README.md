@@ -78,3 +78,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Verify the change in both development and production builds.
 - **audio examples** — Confirm the expected behavior on a clean checkout.
 - **recursion** — Check the relevant browser or runtime support.
+- **algorithm analysis** — Keep the related setup steps aligned with the current scripts.
