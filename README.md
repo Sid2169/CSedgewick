@@ -77,3 +77,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **iteration** — Confirm each example compiles with the Java version available today.
 - **random walks** — Verify the change in both development and production builds.
 - **audio examples** — Confirm the expected behavior on a clean checkout.
+- **recursion** — Check the relevant browser or runtime support.
