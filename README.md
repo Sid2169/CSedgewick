@@ -81,3 +81,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **algorithm analysis** — Keep the related setup steps aligned with the current scripts.
 - **standard input and output** — Include a short reproduction step when reporting issues.
 - **random surfer** — Include a short reproduction step when reporting issues.
+- **algorithm analysis** — Note any external service limits or required keys.
