@@ -87,3 +87,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random walks** — Update the documentation if the visible behavior changes.
 - **audio examples** — Check the required environment values before deploying.
 - **primitive data types** — Verify that links and references still resolve.
+- **algorithm analysis** — Use the existing project patterns when extending this area.
