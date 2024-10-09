@@ -82,3 +82,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **standard input and output** — Include a short reproduction step when reporting issues.
 - **random surfer** — Include a short reproduction step when reporting issues.
 - **algorithm analysis** — Note any external service limits or required keys.
+- **mathematical functions** — Prefer small, focused changes over broad rewrites.
