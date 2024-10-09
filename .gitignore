@@ -1,2 +1,53 @@
-logs/
+# Ignore compiled class files
 *.class
+
+# Ignore log files
+logs/
+*.log
+
+# Ignore build directories (commonly used by Maven, Gradle, and other build tools)
+build/
+out/
+target/
+
+# Ignore IntelliJ IDEA project files
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# Ignore VS Code project settings
+.vscode/
+
+# Ignore Eclipse project files
+*.project
+*.classpath
+.settings/
+
+# Ignore Maven specific files
+!**/src/main/**/target/
+!**/src/test/**/target/
+
+# Ignore Gradle specific files
+.gradle/
+build/
+
+# Ignore distribution files
+dist/
+lib/
+
+# Ignore package files
+*.war
+*.ear
+
+# Ignore operating system-specific files (optional, depending on your system)
+.DS_Store
+Thumbs.db
+
+# Ignore coverage reports
+coverage/
+*.lcov
+
+# Ignore temporary files
+*.swp
+*.tmp
