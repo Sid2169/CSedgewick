@@ -83,3 +83,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **random surfer** — Include a short reproduction step when reporting issues.
 - **algorithm analysis** — Note any external service limits or required keys.
 - **mathematical functions** — Prefer small, focused changes over broad rewrites.
+- **recursion** — Verify the change in both development and production builds.
