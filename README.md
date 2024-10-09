@@ -86,3 +86,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **recursion** — Verify the change in both development and production builds.
 - **random walks** — Update the documentation if the visible behavior changes.
 - **audio examples** — Check the required environment values before deploying.
+- **primitive data types** — Verify that links and references still resolve.
