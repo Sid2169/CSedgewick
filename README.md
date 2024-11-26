@@ -89,3 +89,4 @@ The repository is a personal collection for practising algorithm analysis and Ja
 - **primitive data types** — Verify that links and references still resolve.
 - **algorithm analysis** — Use the existing project patterns when extending this area.
 - **mathematical functions** — Keep commands copy-pasteable for new contributors.
+- **Euclid's algorithm** — Confirm each example compiles with the Java version available today.
